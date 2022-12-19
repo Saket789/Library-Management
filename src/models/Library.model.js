@@ -1,7 +1,6 @@
 'user strict';
 var dbConn = require('../../config/db.config');
 
-//Book object create
 class Book {
     constructor(book) {
         this.book_name = book.book_name;
